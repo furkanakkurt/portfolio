@@ -112,7 +112,7 @@ export const RESUME_DATA: ResumeData = {
     {
       company: "Istanbul Technical University",
       link: "https://www.itu.edu.tr/",
-      badges: ["React", "TypeScript", "Node.js", "Android", "Kotlin"],
+      badges: ["PyTorch", "CNN", "Python", "Medical Image Analysis"],
       title: "Undergraduate Research Assistant",
       start: "December 2020",
       end: "July 2021",
@@ -137,8 +137,7 @@ export const RESUME_DATA: ResumeData = {
     "GCP",
     "Python - PyTorch - MLOps pipelines",
     "WebSockets",
-    "Node.js",
-
+    "Node.js"
   ],
   projects: [
     {
