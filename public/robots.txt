@@ -1,13 +1,14 @@
-# Robots.txt for https://cv.jarocki.me
+# Robots.txt for https://furkanakkurt.com
 
 User-agent: *
 Allow: /
+Allow: /api/og/*
 Disallow: /api/
 Disallow: /_next/
 Disallow: /graphql
 
 # Sitemap location
-Sitemap: https://cv.jarocki.me/sitemap.xml
+Sitemap: https://furkanakkurt.com/sitemap.xml
 
 # Crawl-delay for responsible crawling
 Crawl-delay: 1

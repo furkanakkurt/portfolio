@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { CommandMenu } from "@/components/command-menu";
 import { SectionErrorBoundary } from "@/components/section-error-boundary";
+import { ImageResponse } from 'next/og';
 import { SectionSkeleton } from "@/components/section-skeleton";
 import { RESUME_DATA } from "@/data/resume-data";
 import { generateResumeStructuredData } from "@/lib/structured-data";
@@ -22,9 +23,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://cv.jarocki.me/opengraph-image",
-        width: 1200,
-        height: 630,
+        url: "https://furkanakkurt.com/opengraph-image.png",
+        width: 900,
+        height: 450,
         alt: `${RESUME_DATA.name}'s profile picture`,
       },
     ],
