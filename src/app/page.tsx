@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "https://furkanakkurt.com/opengraph-image.png",
         width: 900,
         height: 450,
-        alt: `${RESUME_DATA.name}'s profile picture`,
+        alt: `${RESUME_DATA.name}'s profile picture`
       },
     ],
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: ["https://cv.jarocki.me/opengraph-image"],
+    images: ["https://furkanakkurt.com/opengraph-image.png"],
   },
 };
 
