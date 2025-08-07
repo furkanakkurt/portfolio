@@ -48,6 +48,16 @@ export interface ResumeData {
     };
     type?: "talk" | "project";
   }>;
+  blogs: Array<{
+    title: string;
+    techStack: string[];
+    description: string;
+    link: {
+      label: string;
+      href: string;
+    };
+    type?: "talk" | "blog";
+  }>;
 }
 
 // GraphQL compatible types (without React components)

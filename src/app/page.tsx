@@ -12,6 +12,7 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Summary } from "./components/Summary";
 import { WorkExperience } from "./components/WorkExperience";
+import { Blogs } from "./components/Blogs";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -118,6 +119,12 @@ export default function ResumePage() {
             <SectionErrorBoundary sectionName="Projects">
               <Suspense fallback={<SectionSkeleton lines={5} />}>
                 <Projects projects={RESUME_DATA.projects} />
+              </Suspense>
+            </SectionErrorBoundary>
+
+            <SectionErrorBoundary sectionName="Blogs">
+              <Suspense fallback={<SectionSkeleton lines={5} />}>
+                <Blogs blogs={RESUME_DATA.blogs} />
               </Suspense>
             </SectionErrorBoundary>
           </div>

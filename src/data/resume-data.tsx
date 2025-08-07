@@ -62,7 +62,7 @@ export const RESUME_DATA: ResumeData = {
             Configured a Kubernetes cluster for our self-hosted CI/CD runners and integrated with a caching mechanism to reduce build/deploy times by 50% and costs by 60%.
           </li>
           <li>
-            Used S3 Express One Zone storage class when it first came out to gain up to 90% performance improvement on storage on applications serving users below second latency. Blog post can be read here.
+            Used S3 Express One Zone storage class when it first came out to gain up to 90% performance improvement on storage on applications serving users below second latency. Blog post can be read <a href="https://aws.amazon.com/blogs/storage/lyrebird-improves-performance-and-reduces-costs-for-generative-ai-workloads-using-amazon-s3-express-one-zone/" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.
           </li>
           <li>
             Worked with the research and development team, which develops high-quality machine learning models serving millions of users worldwide, to create a cloud-based working environment with powerful accelerators (GPUs, TPUs, and Inf2), and deploy those models to production using seamless infrastructures.
@@ -140,17 +140,17 @@ export const RESUME_DATA: ResumeData = {
     "Node.js"
   ],
   projects: [
-    {
-      title: "Innovating with Generative AI on AWS",
-      techStack: ["AWS", "Generative AI", "Presentation"],
-      description:
-        "Gave a presentation on Innovating with Generative AI on AWS at AWS Cloud Day Türkiye 2023. Covered GenAI concepts and how we leveraged AWS to serve users efficiently.",
-      link: {
-        label: "Talk",
-        href: "https://www.linkedin.com/feed/update/urn:li:activity:7116535381889552384/",
-      },
-      type: "talk"
-    },
+    // {
+    //   title: "Innovating with Generative AI on AWS",
+    //   techStack: ["AWS", "Generative AI", "Presentation"],
+    //   description:
+    //     "Gave a presentation on Innovating with Generative AI on AWS at AWS Cloud Day Türkiye 2023. Covered GenAI concepts and how we leveraged AWS to serve users efficiently.",
+    //   link: {
+    //     label: "Talk",
+    //     href: "https://www.linkedin.com/feed/update/urn:li:activity:7116535381889552384/",
+    //   },
+    //   type: "talk"
+    // },
     {
       title: "Plantify",
       techStack: ["Flutter", "Node.js", "PyTorch", "Docker", "Arduino"],
@@ -185,4 +185,39 @@ export const RESUME_DATA: ResumeData = {
       type: "project"
     },
   ],
+  blogs: [
+    {
+      title: "Innovating with Generative AI on AWS",
+      techStack: ["AWS", "Generative AI", "Presentation"],
+      description:
+        "Gave a presentation on Innovating with Generative AI on AWS at AWS Cloud Day Türkiye 2023. Covered GenAI concepts and how we leveraged AWS to serve users efficiently.",
+      link: {
+        label: "Talk",
+        href: "https://www.linkedin.com/feed/update/urn:li:activity:7116535381889552384/",
+      },
+      type: "talk"
+    },
+    {
+      title: "Amazon SQS Fair Queues for Fairness in Multi-Tenant Environments",
+      techStack: ["AWS", "SQS", "Fair Queues"],
+      description:
+        "Explained how Amazon SQS Fair Queues can be used to ensure fairness in multi-tenant environments. Covered the concept of fair queues and how they can be implemented using Amazon SQS.",
+      link: {
+        label: "Blog",
+        href: "https://akkurtfurkan.medium.com/amazon-sqs-fair-queues-for-fairness-in-multi-tenant-environments-db70807a27be"
+      },
+      type: "blog"
+    },
+    {
+      title: "Lyrebird improves performance and reduces costs for generative AI workloads using Amazon S3 Express One Zone",
+      techStack: ["AWS", "S3", "Generative AI"],
+      description:
+        "Explained how Amazon S3 Express One Zone can be used to improve performance and reduce costs for generative AI workloads. Covered the concept of S3 Express One Zone and how it can be implemented using Amazon S3.",
+      link: {
+        label: "Blog",
+        href: "https://aws.amazon.com/blogs/storage/lyrebird-improves-performance-and-reduces-costs-for-generative-ai-workloads-using-amazon-s3-express-one-zone/"
+      },
+      type: "blog"
+    }
+  ]
 } as const;
