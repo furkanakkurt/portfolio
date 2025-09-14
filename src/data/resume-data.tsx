@@ -44,6 +44,21 @@ export const RESUME_DATA: ResumeData = {
   ],
   work: [
     {
+      company: "Garanti BBVA Teknoloji",
+      link: "https://www.garantibbvateknoloji.com.tr/",
+      badges: ["Java", "Spring", "Framework Development", "Banking"],
+      title: "Software Engineer",
+      start: "August 2025",
+      end: "Present",
+      description: (
+        <ul className="list-inside list-disc">
+          <li>
+            Architecting and developing a Java framework for internal use. 
+          </li>
+        </ul>
+      ),
+    },
+    {
       company: "Lyrebird Studio",
       link: "https://lyrebirdstudio.net/",
       badges: ["GenAI", "AWS", "Python", "TypeScript", "GCP"],
