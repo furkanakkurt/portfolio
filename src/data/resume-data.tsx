@@ -53,7 +53,7 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <ul className="list-inside list-disc">
           <li>
-            Architecting and developing a Java framework for internal use. 
+            Architecting and developing a Java framework for internal use.
           </li>
         </ul>
       ),
@@ -202,6 +202,17 @@ export const RESUME_DATA: ResumeData = {
   ],
   blogs: [
     {
+      title: "Lyrebird improves performance and reduces costs for generative AI workloads using Amazon S3 Express One Zone",
+      techStack: ["AWS", "S3", "Generative AI"],
+      description:
+        "Explained how Amazon S3 Express One Zone can be used to improve performance and reduce costs for generative AI workloads. Covered the concept of S3 Express One Zone and how it can be implemented using Amazon S3.",
+      link: {
+        label: "Blog",
+        href: "https://aws.amazon.com/blogs/storage/lyrebird-improves-performance-and-reduces-costs-for-generative-ai-workloads-using-amazon-s3-express-one-zone/"
+      },
+      type: "blog"
+    },
+    {
       title: "Innovating with Generative AI on AWS",
       techStack: ["AWS", "Generative AI", "Presentation"],
       description:
@@ -224,13 +235,13 @@ export const RESUME_DATA: ResumeData = {
       type: "blog"
     },
     {
-      title: "Lyrebird improves performance and reduces costs for generative AI workloads using Amazon S3 Express One Zone",
-      techStack: ["AWS", "S3", "Generative AI"],
+      title: "How to Load Balance gRPC in Kubernetes",
+      techStack: ["Kubernetes", "Java", "gRPC", "Load Balancing"],
       description:
-        "Explained how Amazon S3 Express One Zone can be used to improve performance and reduce costs for generative AI workloads. Covered the concept of S3 Express One Zone and how it can be implemented using Amazon S3.",
+        "Understandable guide to observe and solve the gRPC load balancing problems in Kubernetes. Talked about gRPC load balancing problems, several solutions to the issue and prepared a demo with the source code.",
       link: {
         label: "Blog",
-        href: "https://aws.amazon.com/blogs/storage/lyrebird-improves-performance-and-reduces-costs-for-generative-ai-workloads-using-amazon-s3-express-one-zone/"
+        href: "https://akkurtfurkan.medium.com/how-to-load-balance-grpc-in-kubernetes-5b635a24e484"
       },
       type: "blog"
     }
